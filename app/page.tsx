@@ -40,7 +40,7 @@ export default function Home() {
                 size='sm'
                 render={
                   <Link
-                    href='https://github.com/shadcn/ui'
+                    href='https://github.com/merthanmerter/shadcn-baseui'
                     target='_blank'
                   />
                 }>
