@@ -183,7 +183,16 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer className='text-center text-xs text-muted-foreground my-4'>
+        Used in{" "}
+        <a
+          className='text-primary'
+          href='https://burt.verkron.com/'
+          target='_blank'>
+          burt stack
+        </a>
+        .
+      </footer>
     </div>
   );
 }

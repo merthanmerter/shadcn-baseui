@@ -4,9 +4,10 @@ export function SeparatorDemo() {
   return (
     <div>
       <div className='space-y-1'>
-        <h4 className='text-sm leading-none font-medium'>Radix Primitives</h4>
+        <h4 className='text-sm leading-none font-medium'>Base UI</h4>
         <p className='text-muted-foreground text-sm'>
-          An open-source UI component library.
+          Unstyled UI components for building accessible web apps and design
+          systems.
         </p>
       </div>
       <Separator className='my-4' />
