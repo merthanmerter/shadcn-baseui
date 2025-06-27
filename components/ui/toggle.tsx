@@ -31,33 +31,13 @@ function Toggle({
   className,
   variant,
   size,
-  children,
-  render,
   ...props
 }: React.ComponentProps<typeof TogglePrimitive> &
   VariantProps<typeof toggleVariants>) {
-  if (render) {
-    return (
-      <TogglePrimitive
-        data-slot='toggle'
-        className={cn(toggleVariants({ variant, size, className }))}
-        render={render}
-        {...props}
-      />
-    );
-  }
-
   return (
     <TogglePrimitive
       data-slot='toggle'
       className={cn(toggleVariants({ variant, size, className }))}
-      render={(buttonProps) => (
-        <button
-          type='button'
-          {...buttonProps}>
-          {children}
-        </button>
-      )}
       {...props}
     />
   );

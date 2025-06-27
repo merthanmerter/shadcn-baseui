@@ -25,9 +25,9 @@ This is a port of the Shadcn UI library to the BaseUI library.
 - [x] Radio Group
 - [ ] Scroll Area
 - [ ] Select
-- [ ] Separator
+- [x] Separator
 - [ ] Slider
-- [ ] Switch
+- [x] Switch
 - [ ] Tabs
 - [x] Toggle
 - [x] Toggle Group

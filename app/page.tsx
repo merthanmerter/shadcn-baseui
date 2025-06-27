@@ -7,11 +7,13 @@ import { BreadcrumbDemo } from "@/components/examples/breadcrumb-demo";
 import { CheckboxDemo } from "@/components/examples/checkbox-demo";
 import { CollapsibleDemo } from "@/components/examples/collapsible-demo";
 import { ContextMenuDemo } from "@/components/examples/context-menu-demo";
-import { DialogDemo } from "@/components/examples/dialog-example";
+import { DialogDemo } from "@/components/examples/dialog-demo";
 import { DropdownMenuDemo } from "@/components/examples/dropdown-menu-demo";
 import { LabelDemo } from "@/components/examples/label-demo";
 import { ProgressDemo } from "@/components/examples/progress-demo";
 import { RadioGroupDemo } from "@/components/examples/radio-group-demo";
+import { SeparatorDemo } from "@/components/examples/separator-demo";
+import { SwitchDemo } from "@/components/examples/switch-demo";
 import { ToggleDemo } from "@/components/examples/toggle-example";
 import { ToggleGroupDemo } from "@/components/examples/toggle-group-demo";
 import { ModeToggle } from "@/components/mode-toggle";
@@ -168,6 +170,16 @@ export default function Home() {
           <div className='grid-item'>
             <h3>Toggle Group</h3>
             <ToggleGroupDemo />
+          </div>
+
+          <div className='grid-item'>
+            <h3>Separator</h3>
+            <SeparatorDemo />
+          </div>
+
+          <div className='grid-item'>
+            <h3>Switch</h3>
+            <SwitchDemo />
           </div>
         </div>
       </main>
