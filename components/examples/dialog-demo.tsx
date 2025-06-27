@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -19,13 +17,7 @@ export function DialogDemo() {
     <Dialog>
       <form>
         <DialogTrigger
-          render={(props) => (
-            <Button
-              {...props}
-              variant='outline'>
-              Open Dialog
-            </Button>
-          )}
+          render={<Button variant='outline'>Open Dialog</Button>}
         />
         <DialogContent className='sm:max-w-[425px]'>
           <DialogHeader>
@@ -54,15 +46,7 @@ export function DialogDemo() {
             </div>
           </div>
           <DialogFooter>
-            <DialogClose
-              render={(props) => (
-                <Button
-                  {...props}
-                  variant='outline'>
-                  Cancel
-                </Button>
-              )}
-            />
+            <DialogClose render={<Button variant='outline'>Cancel</Button>} />
             <Button type='submit'>Save changes</Button>
           </DialogFooter>
         </DialogContent>

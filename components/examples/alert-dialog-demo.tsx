@@ -16,21 +16,6 @@ export function AlertDialogDemo() {
       <AlertDialogTrigger
         render={<Button variant='outline'>Show Dialog</Button>}
       />
-      {/* 
-      Alternative way to use props
-      This is useful when you need to 
-      pass props to the button
-      only in client components.
-
-      <AlertDialogTrigger
-        render={(props) => (
-          <Button
-            variant='outline'
-            {...props}>
-            Show Dialog
-          </Button>
-        )}
-      /> */}
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
